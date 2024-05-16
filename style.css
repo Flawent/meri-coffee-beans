@@ -1,0 +1,105 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9e6; /* молочно-білий */
+  color: #5d4037; /* коричневий */
+}
+
+/* Header styles */
+header {
+  background-color: #795548; /* темно-коричневий */
+  color: #fff9e6; /* молочно-білий */
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff9e6; /* молочно-білий */
+}
+
+/* Main content styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #795548; /* темно-коричневий */
+  color: #fff9e6; /* молочно-білий */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Links styles */
+a {
+  color: #5d4037; /* коричневий */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff9e6; /* молочно-білий */
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #5d4037; /* коричневий */
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close {
+  color: #5d4037; /* коричневий */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ff7043; /* світло-коричневий */
+  text-decoration: none;
+  cursor: pointer;
+}

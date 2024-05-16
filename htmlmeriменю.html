@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffee beans</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #fff9e6; /* молочно-білий */
+        color: #5d4037; /* коричневий */
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Закрепить footer внизу страницы */
+      }
+      header,
+      footer {
+        background-color: #795548; /* темно-коричневий */
+        color: #fff9e6; /* молочно-білий */
+        padding: 20px;
+      }
+      main {
+        flex: 1; /* Растянуть основное содержимое на всю доступную высоту */
+      }
+      a {
+        color: #5d4037; /* коричневий */
+      }
+      .glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px  #6F513A, 0 0 20px #fff, 0 0 30px #4A2E2C, 0 0 40px #4A2E2C, 0 0 50px #4A2E2C, 0 0 60px #4A2E2C, 0 0 70px #6F513A;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #916A53, 0 0 40px #916A53, 0 0 50px #916A53, 0 0 60px #916A53, 0 0 70px #916A53, 0 0 80px #ff4da6;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <center>
+    <header>
+      <div class="container">
+        <h1 class="glow">coffee beans</h1>
+        <br></br>
+        <nav>
+          <ul>
+            <li><a href="index.html">Про нас</a></li>
+            <li><a href="htmlmeriменю.html">Меню</a></li>
+            <li><a href="htmlmeriконтакти.html">Контакти</a></li>
+            <li><a href="htmlmeriреєстрація.html">Реєстрація</a></li>
+            <li><a href="htmlmeriвхід.html">Вхід</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </center>
+
+    <main>
+      <center>
+      <section id="menu">
+        <div class="container">
+          <h1>Меню</h1>
+          <br>
+          <h3>Лате</h3>
+          <p>45 грн</p>
+          <br>
+          <img width="350", height="250" src="https://agropererobka.com.ua/content/recipes/show/ice_late_tiramisu_1702561265.jpg"/>
+          <br>
+          <br>
+          <h3>Капучино</h3>
+          <p>40 грн</p>
+          <br>
+          <img width="350", height="250" src="https://www.philips.ru/c-dam/b2c/category-pages/Household/coffee/ru/cup-of-cappuccino.jpg"/>
+          <br>
+          <br>
+          <h3>Еспресо</h3>
+          <p>30 грн</p>
+          <br>
+          <img width="350", height="250" src="https://cdn.abo.media/upload/article/yl2vcyverjumqa2tddl6.jpg"/>
+          <br>
+        </div>
+      </section>
+    </center>
+
+    
+
+      
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 coffee beans</p>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
